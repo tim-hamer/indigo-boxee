@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Actions>
+  <Action id="sendCommand" deviceFilter="self">
+    <Name>Send Command</Name>
+    <CallbackMethod>sendCommand</CallbackMethod>
+    <ConfigUI>
+      <Field type="menu" id="command" defaultValue="item2">
+        <Label>Command:</Label>
+        <List>
+          <Option value="up">Up</Option>
+          <Option value="down">Down</Option>
+          <Option value="left">Left</Option>
+          <Option value="right">Right</Option>
+          <Option value="select">Select</Option>
+          <Option value="back">Back</Option>
+          <Option value="pause">Pause</Option>
+        </List>
+      </Field>
+    </ConfigUI>
+  </Action>
+</Actions>
