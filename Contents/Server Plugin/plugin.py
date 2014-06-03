@@ -15,7 +15,7 @@ class Plugin(indigo.PluginBase):
             'up': 'SendKey(270)',
             'down': 'SendKey(271)',
             'left': 'SendKey(272)',
-            'right': 'SendKey(2703)',
+            'right': 'SendKey(273)',
             'select': 'SendKey(256)',
             'back': 'SendKey(275)',
             'pause': 'Pause()',
